@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import getGifs from './services/getGifs';
+import ListGifs from './components/ListGifs'
 
-function App() {
+const App = () => {
   const [ gifs, setGifs ] =  useState([])
   // [] es un parametro para evitar que entre en un ciclo infinito
   useEffect(() => {
@@ -13,14 +14,7 @@ function App() {
   return (
     <div className="App">
       <section className="App-content">
-        {
-          gifs.map(singleGif => {
-            return <div>
-              <span>{singleGif.title}</span>
-              <img src={singleGif.url} alt={singleGif.title} />)
-            </div>
-          })
-        }
+        < ListGifs gifs={gifs}/>
       </section>
     </div>
   );
