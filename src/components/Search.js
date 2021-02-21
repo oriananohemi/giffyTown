@@ -1,12 +1,15 @@
-import { text } from '@fortawesome/fontawesome-svg-core';
-import React from 'react'
+import React from 'react';
+import { useLocation } from 'wouter';
+import Swal from 'sweetalert2';
 
 const Search = () => {
     let textInput = React.createRef();
 
+    const [ location, setLocation ] = useLocation()
+
     const handleClick = () => {
         let inputValue = textInput.current.value
-        inputValue === '' ? console.log('vacio') : console.log('algo')
+        inputValue === '' ? Swal.fire('Ingresa el nombre del gif que desees'): setLocation(`/gif/${inputValue}`)
     }
     return (
         <>
