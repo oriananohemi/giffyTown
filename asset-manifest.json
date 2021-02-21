@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/giffyTown/static/css/main.3072c4e3.chunk.css",
-    "main.js": "/giffyTown/static/js/main.5a9d8fd2.chunk.js",
-    "main.js.map": "/giffyTown/static/js/main.5a9d8fd2.chunk.js.map",
+    "main.js": "/giffyTown/static/js/main.7878e4ea.chunk.js",
+    "main.js.map": "/giffyTown/static/js/main.7878e4ea.chunk.js.map",
     "runtime-main.js": "/giffyTown/static/js/runtime-main.b4a64f43.js",
     "runtime-main.js.map": "/giffyTown/static/js/runtime-main.b4a64f43.js.map",
     "static/js/2.388ae8fd.chunk.js": "/giffyTown/static/js/2.388ae8fd.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b4a64f43.js",
     "static/js/2.388ae8fd.chunk.js",
     "static/css/main.3072c4e3.chunk.css",
-    "static/js/main.5a9d8fd2.chunk.js"
+    "static/js/main.7878e4ea.chunk.js"
   ]
 }
