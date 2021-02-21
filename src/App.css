@@ -111,6 +111,17 @@ ul {
   margin: 10px 0;
 }
 
+.listGif__button {
+  color: #ea4c89;
+  border: 1px solid #ea4c89;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 10px 15px;
+  position: absolute;
+  margin: 20px;
+  left: 0;
+}
+
 @media (min-width: 700px) {
   .gifs-container {
     columns: 3;
