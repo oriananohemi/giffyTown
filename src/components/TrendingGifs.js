@@ -11,7 +11,7 @@ const TrendingGifs = () => {
     }, [])
     return (
         <div>
-            <h2 className="treanding__title">Los mas top</h2>
+            <h2 className="treanding__title">Los más top</h2>
             <div className="gifs-container">
                 {
                     gifs.map(({id, title, url}) => 
