@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/giffyTown/static/css/main.3072c4e3.chunk.css",
-    "main.js": "/giffyTown/static/js/main.7878e4ea.chunk.js",
-    "main.js.map": "/giffyTown/static/js/main.7878e4ea.chunk.js.map",
+    "main.css": "/giffyTown/static/css/main.fa3c8e69.chunk.css",
+    "main.js": "/giffyTown/static/js/main.9439e3a0.chunk.js",
+    "main.js.map": "/giffyTown/static/js/main.9439e3a0.chunk.js.map",
     "runtime-main.js": "/giffyTown/static/js/runtime-main.b4a64f43.js",
     "runtime-main.js.map": "/giffyTown/static/js/runtime-main.b4a64f43.js.map",
     "static/js/2.388ae8fd.chunk.js": "/giffyTown/static/js/2.388ae8fd.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.ae4949a0.chunk.js": "/giffyTown/static/js/3.ae4949a0.chunk.js",
     "static/js/3.ae4949a0.chunk.js.map": "/giffyTown/static/js/3.ae4949a0.chunk.js.map",
     "index.html": "/giffyTown/index.html",
-    "static/css/main.3072c4e3.chunk.css.map": "/giffyTown/static/css/main.3072c4e3.chunk.css.map",
+    "static/css/main.fa3c8e69.chunk.css.map": "/giffyTown/static/css/main.fa3c8e69.chunk.css.map",
     "static/js/2.388ae8fd.chunk.js.LICENSE.txt": "/giffyTown/static/js/2.388ae8fd.chunk.js.LICENSE.txt",
     "static/media/App.css": "/giffyTown/static/media/hero.72979e27.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b4a64f43.js",
     "static/js/2.388ae8fd.chunk.js",
-    "static/css/main.3072c4e3.chunk.css",
-    "static/js/main.7878e4ea.chunk.js"
+    "static/css/main.fa3c8e69.chunk.css",
+    "static/js/main.9439e3a0.chunk.js"
   ]
 }
