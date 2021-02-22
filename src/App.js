@@ -2,6 +2,7 @@ import './App.css';
 import ListGifs from './components/ListGifs'
 import Home from './pages/Home'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 import { Route } from 'wouter'
 
@@ -14,6 +15,7 @@ const App = () => {
         <Route component={ Home } path="/giffyTown" />
         <Route component={ ListGifs } path="/gif/:keyword" />
       </section>
+      <Footer/>
     </div>
   );
 }
