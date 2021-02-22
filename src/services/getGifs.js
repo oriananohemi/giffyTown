@@ -2,7 +2,7 @@ const API_KEY = 'uI6Hhzz4cZGdozXiaMugDtpVwt7ofeo1'
 
 
 export const getGifs = ({keyword = 'top'} = {}) => {
-  const API_URL = `http://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${keyword}`
+  const API_URL = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${keyword}`
   return fetch(API_URL)
     .then(res => res.json())
     .then((result) => {
@@ -20,7 +20,7 @@ export const getGifs = ({keyword = 'top'} = {}) => {
 }
 
 export const getGifsTrending = ({keyword = 'top'} = {}) => {
-  const API_URL = `http://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}`
+  const API_URL = `https://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}`
   return fetch(API_URL)
     .then(res => res.json())
     .then((result) => {
