@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
       <Header/>
       <section className="App-content">
-        <Route component={ Home } path="" />
+        <Route component={ Home } path="/giffyTown" />
         <Route component={ ListGifs } path="/gif/:keyword" />
       </section>
     </div>
