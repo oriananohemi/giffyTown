@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getGifsTrending } from '../services/getGifs'
 import Gif from '../components/Gif'
-import Footer from './components/Footer'
+import Footer from '../components/Footer'
 
 const TrendingGifs = () => {
     const [ gifs, setGifs ] =  useState([])
